@@ -10,3 +10,4 @@ extension String {
 // Example for localizing strings easier.
 
 var localizedHelloWorld = "Hello World".localized
+localizedHelloWorld = "Hello World".localized("Title for Hello World")
