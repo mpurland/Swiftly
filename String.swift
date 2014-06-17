@@ -2,7 +2,7 @@ extension String {
     var localized: String {
         return self.localized(comment: "")
     }
-    func localized(comment:String) -> String {
+    func localizedWithComment(comment:String) -> String {
         return self.localized(comment: comment)
     }
     func localized(comment commentString:String) -> String {
@@ -14,4 +14,4 @@ extension String {
 
 var localizedHelloWorld = "Hello World".localized
 localizedHelloWorld = "Hello World".localized(comment: "Title for Hello World")
-localizedHelloWorld = "Hello World".localized("Title for Hello World")
+localizedHelloWorld = "Hello World".localizedWithComment("Title for Hello World")
