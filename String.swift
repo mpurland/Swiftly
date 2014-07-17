@@ -9,9 +9,3 @@ extension String {
         return NSLocalizedString(self, comment: commentString)
     }
 }
-
-// Example for localizing strings easier.
-
-var localizedHelloWorld = "Hello World".localized
-localizedHelloWorld = "Hello World".localized(comment: "Title for Hello World")
-localizedHelloWorld = "Hello World".localizedWithComment("Title for Hello World")
